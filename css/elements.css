@@ -1,0 +1,1867 @@
+@charset "utf-8";
+/*
+/*	Copyright (c) 2020 Marketify
+/*	Author: Marketify
+/*	This file is made for CURRENT TEMPLATE
+
+
+01) SHANE HERO
+02) SHANE ABOUT
+03) SHANE SERVICE
+04) SHANE PORTFOLIO
+05) SHANE TESTIMONIALS
+06) SHANE TITLE
+07) SHANE BUTTON
+08) SHANE MEDIA QUERIES (FOR SMALL DEVICES)
+
+/*---------------------------------------------------*/
+/*	01) SHANE HERO
+/*---------------------------------------------------*/
+
+.shane_tm_hero_second{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.shane_tm_hero_second .background{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.shane_tm_hero_second .background .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.shane_tm_hero_second .background .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	background-color: rgba(0,0,0,.6);
+}
+.shane_tm_hero_second .centered_content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	z-index: 12;
+	width: 100%;
+}
+.shane_tm_hero_second .centered_content .name{
+	font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+	color: #fff;
+}
+.shane_tm_hero_second .centered_content .job{
+	font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+	color: #fff;
+}
+.shane_tm_hero_second .centered_content .social ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_hero_second .centered_content .social ul li{
+	margin: 0px 20px 0px 0px;
+	display: inline-block;
+}
+.shane_tm_hero_second .centered_content .social ul li:last-child{margin-right: 0px;}
+.shane_tm_hero_second .centered_content .social ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.shane_tm_hero_third{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.shane_tm_hero_third .background{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.shane_tm_hero_third .background .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.shane_tm_hero_third .background .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	background-color: rgba(0,0,0,.6);
+}
+.shane_tm_hero_third .centered_content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	z-index: 12;
+	width: 100%;
+}
+.shane_tm_hero_third .centered_content .name{
+	font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+	color: #fff;
+}
+.shane_tm_hero_third .centered_content .job{
+	font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+	color: #fff;
+}
+.shane_tm_hero_third .centered_content .job.empty{margin-bottom: 0px;}
+.shane_tm_hero_third .centered_content .social ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_hero_third .centered_content .social ul li{
+	margin: 0px 20px 0px 0px;
+	display: inline-block;
+}
+.shane_tm_hero_third .centered_content .social ul li:last-child{margin-right: 0px;}
+.shane_tm_hero_third .centered_content .social ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.shane_tm_hero_third .hello{
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	color: #fff;
+}
+.shane_tm_hero_third .centered_content .social.gutter{
+	margin-bottom: 40px;
+	padding-top: 10px;
+}
+.shane_tm_button_second{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_button_second a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #e54b4b;
+	display: inline-block;
+	font-family: "Poppins";
+	font-weight: 400;
+	padding: 10px 30px;
+	position: relative;
+	border-radius: 5px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_button_second a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.shane_tm_hero_fourth{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.shane_tm_hero_fourth .bakckground_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.shane_tm_hero_fourth .container{height: 100%;}
+.shane_tm_hero_fourth .content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+}
+.shane_tm_hero_fourth .content_inner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.shane_tm_hero_fourth .content[data-skin="dark"] .name{
+	color: #000;
+}
+.shane_tm_hero_fourth .content[data-skin="dark"] .job h3{
+	color: #000;
+}
+.shane_tm_hero_fourth .animate_job{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #eee;
+}
+.shane_tm_hero_fourth .name_another{
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 1.3;
+	margin-bottom: 15px;
+	color: #fff;
+}
+.shane_tm_hero_fourth .desc{
+	margin-bottom: 30px;
+	max-width: 400px;
+	color: #eee;
+}
+.shane_tm_down{
+	position: absolute;
+	z-index: 7;
+	bottom: 60px;
+}
+.shane_tm_down[data-position="left"]{
+	left: 0px;
+}
+.shane_tm_down[data-position="right"]{
+	right: 0px;
+}
+.shane_tm_down[data-position="center"]{
+	left:50%;
+	transform: translateX(-50%);
+}
+.shane_tm_down .line_wrapper{
+	position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 0;
+    right: 0;
+   	margin: 0px auto;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+	
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+}
+.shane_tm_down .line_wrapper{
+    width: 1px;
+    height: 50px;
+    background: none;
+	display: block;
+}
+.shane_tm_down .line_wrapper:before{
+	content: "";
+	background-color: #fff;
+	width: 1px;
+    height: 50%;
+    display: block;
+    top: 0;
+	
+    -webkit-animation: scroll-down 2s ease-in-out infinite;
+    -ms-animation: scroll-down 2s ease-in-out infinite;
+    animation: scroll-down 2s ease-in-out infinite;;
+}
+
+@-webkit-keyframes scroll-down {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+  70% {
+    height: 100%;
+    transform: scaleY(0.5);
+    transform-origin: bottom;
+  }
+  100% {
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+.shane_tm_down[data-skin="light"] .line_wrapper:before{
+	background-color: #fff;
+}
+
+/*---------------------------------------------------*/
+/*	02) SHANE ABOUT
+/*---------------------------------------------------*/
+
+.shane_tm_about_second{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_about_second .about_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+}
+.shane_tm_about_second .left{
+	width: 50%;
+	padding-right: 50px;
+}
+.shane_tm_about_second .left .image{
+	position: relative;
+}
+.shane_tm_about_second .left .image img{
+	opacity: 0;
+}
+.shane_tm_about_second .left .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+}
+.shane_tm_about_second .right{
+	width: 50%;
+	padding-left: 30px;
+}
+.shane_tm_about_second .right .name{
+	margin-bottom: 32px;
+}
+.shane_tm_about_second .right .name h3{
+	font-size: 35px;
+	font-weight: 700;
+}
+.shane_tm_about_second .right .desc{
+	margin-bottom: 35px;
+}
+.shane_tm_about_second .short_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 30px;
+}
+.shane_tm_about_second .short_list ul{
+	margin: 0px 0px 0px -30px;
+	list-style-type: none;
+}
+.shane_tm_about_second .short_list ul li{
+	margin: 0px 0px 20px 0px;
+	list-style-type: none;
+	width: 50%;
+	float: left;
+	padding-left: 30px;
+}
+.shane_tm_about_second .short_list ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_about_second .short_list ul li .inner .svg{
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	color: #D35158;
+}
+.shane_tm_about_second .short_list ul li .inner .first{
+	display: inline-block;
+	font-weight:600;
+	color: #000;
+}
+.shane_tm_about_second .short_list ul li .inner .second{
+	display: inline-block;
+	padding-left: 10px;
+}
+.shane_tm_about_second .short_list ul li .inner a{
+	text-decoration: none;
+	color: #333;
+	position: relative;
+	display: inline-block;
+}
+.shane_tm_about_second .short_list ul li .inner a:before{
+	content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.15);
+}
+.shane_tm_about_second .short_list ul li .inner a:after{
+	content: '';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+    background: currentColor;
+}
+.shane_tm_about_second .short_list ul li .inner a:hover:after{
+	width:100%;
+	left:0;
+	right:auto;
+}
+.shane_tm_about_third{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_about_third .about_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+}
+.shane_tm_about_third .leftbox{
+	width: 45%;
+	float: left;
+	height: auto;
+}
+.shane_tm_about_third .leftbox .about_image_wrap{position: relative;}
+.shane_tm_about_third .leftbox .about_image_wrap .image{
+	position: relative;
+	z-index: 2;
+}
+.shane_tm_about_third .leftbox .about_image_wrap .image .inner{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.shane_tm_about_third .leftbox .about_image_wrap .border .inner{
+	position: absolute;
+	top: 25px !important;
+	bottom: -25px !important;
+	left: 25px !important;
+	right: -25px !important;
+	border: 10px solid #000;
+}
+.shane_tm_about_third .leftbox .about_image_wrap img{opacity: 0;}
+.shane_tm_about_third .rightbox{
+	width: 55%;
+	height: auto;
+	padding-left: 70px;
+}
+.shane_tm_about_third .rightbox .about_title{margin-bottom: 30px;}
+.shane_tm_about_third .rightbox .about_title h3{font-size: 20px;}
+.shane_tm_about_third .rightbox .about_title h3 .arlo_tm_animation_text_word{color: #ff214f;}
+.shane_tm_about_third .rightbox .text{
+	margin-bottom: 23px;
+	float: left;
+}
+.shane_tm_about_third .rightbox .text span{
+	color: #ff214f;
+	font-style: italic;
+}
+.shane_tm_about_third .about_short_contact_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 19px;
+}
+.shane_tm_about_third .arlo_tm_main_title_holder{margin-bottom: 40px;}
+.shane_tm_about_third .about_short_contact_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_about_third .about_short_contact_wrap ul li{
+	margin: 0px 0px 10px 0px;
+	width: 50%;
+	float: left;
+	position: relative;
+	padding-left: 30px;
+}
+.shane_tm_about_third .about_short_contact_wrap ul li:nth-of-type(2n){clear: right;}
+.shane_tm_about_third ul li label{
+	font-weight: 500;
+	color: #000;
+	min-width: 85px;
+	display: inline-block;
+}
+.shane_tm_about_third .about_short_contact_wrap ul li a{
+	text-decoration: none;
+	color: #000;
+    position: relative;
+	border-bottom: 1px solid transparent;
+	
+    -webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_about_third .about_short_contact_wrap ul li a:hover{border-bottom-color: #000;}
+.shane_tm_about_third .about_short_contact_wrap ul li .svg{
+	position: absolute;
+	left: 0px;
+	top: 6px;
+	width: 17px;
+	height: 17px;
+	color: #e54b4b;
+}
+.shane_tm_about_third .buttons{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_about_third .buttons ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_about_third .buttons ul li{
+	margin: 0px 15px 20px 0px;
+	display: inline-block;
+}
+.shane_tm_about_third .buttons ul li a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #e54b4b;
+	display: inline-block;
+	padding: 10px 45px;
+	font-family: "Poppins";
+	position: relative;
+	overflow: hidden;
+}
+.shane_tm_about_third .buttons ul li a:before{
+	position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #000;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.shane_tm_about_third .buttons ul li a:hover:before{width: 150%;}
+.shane_tm_about_third .buttons ul li span{
+	z-index: 2;
+	position: relative;
+}
+.shane_tm_about_wrapper_all_fourth{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_main_title_holder_elements{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: left;
+	margin-bottom: 40px;
+}
+.shane_tm_main_title_holder_elements.about{
+	text-align: left;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.shane_tm_main_title_holder_elements h3{
+	font-weight: 900;
+	font-family: "Poppins";
+	color: #041230;
+	font-size: 30px;
+	line-height: 1;
+}
+.shane_tm_main_title_holder_elements h3 span{
+    position: relative;
+}
+.shane_tm_main_title_holder_elements h3 span:before{
+    position: absolute;
+	content: "";
+	width: 50px;
+	height: 4px;
+	background-color: #041230;
+	letter-spacing: 0px;
+	bottom: -10px;
+}
+.shane_tm_about_wrap_fourth{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 100px 0px 170px 0px;
+	position: relative;
+	margin-top: -6px;
+}
+.shane_tm_about_wrap_fourth .author_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.shane_tm_about_wrap_fourth .leftbox{
+	width: 45%;
+	float: left;
+	height: auto;
+}
+.shane_tm_about_wrap_fourth .leftbox .about_image_wrap{
+	position: relative;
+}
+.shane_tm_about_wrap_fourth .leftbox .about_image_wrap .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.shane_tm_about_wrap_fourth .leftbox .about_image_wrap img{opacity: 0;}
+.shane_tm_about_wrap_fourth .rightbox{
+	width: 55%;
+	float: right;
+	padding: 0px 0px 0px 65px;
+}
+.shane_tm_about_wrap_fourth .subtitle{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.shane_tm_about_wrap_fourth .subtitle p{
+	font-family: "Poppins";
+	color: #333;
+	font-size: 15px;
+	font-weight: 600;
+}
+.shane_tm_about_wrap_fourth .definition{margin-bottom: 20px;}
+.shane_tm_about_wrap_fourth .definition p{color: #333;}
+.shane_tm_about_wrap_fourth .definition p strong{color: #041230;}
+.progress_bar_wrap_total{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+}
+.edrea_tm_progress_wrap[data-size="big"] .edrea_tm_progress .edrea_tm_bar_bg{height:40px;}
+.edrea_tm_progress_wrap[data-size="small"] .edrea_tm_progress .edrea_tm_bar_bg{height:5px;}
+
+.edrea_tm_progress_wrap[data-round="a"] .edrea_tm_progress .edrea_tm_bar_bg,
+.edrea_tm_progress_wrap[data-round="a"] .edrea_tm_progress .edrea_tm_bar{
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.edrea_tm_progress_wrap[data-round="b"] .edrea_tm_progress .edrea_tm_bar_bg,
+.edrea_tm_progress_wrap[data-round="b"] .edrea_tm_progress .edrea_tm_bar{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.edrea_tm_progress_wrap[data-round="c"] .edrea_tm_progress .edrea_tm_bar_bg,
+.edrea_tm_progress_wrap[data-round="c"] .edrea_tm_progress .edrea_tm_bar{
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	border-radius:50px;
+}
+.edrea_tm_progress{
+	width:100%;
+	margin-bottom:15px;
+}
+.edrea_tm_progress > span{
+	margin:0px 0px 3px 0px;
+	width:100%;
+	display:block;
+	text-align:left;
+}
+.edrea_tm_progress span.label{
+	font-size:13px;
+	font-weight:700;
+	color:#000;
+	font-family: "Poppins";
+}
+.edrea_tm_progress span.number{
+	float:right;
+	font-size:13px;
+	color:#000;
+	font-weight: 700;
+	font-family: "Poppins";
+}
+.edrea_tm_progress .edrea_tm_bar_bg{
+	background:rgba(0,0,0,.1);
+	width:100%;
+	min-width:100%;
+	position:relative;
+	height:20px;
+}
+.edrea_tm_progress .edrea_tm_bar_bg .edrea_tm_bar_wrap{
+	width:0px;
+	height:100%;
+}
+.edrea_tm_progress .edrea_tm_bar_bg .edrea_tm_bar_wrap.open{
+	-webkit-animation: edrea_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
+	-moz-animation:    edrea_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
+	animation:         edrea_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
+	width:100%;	
+}
+.edrea_tm_progress .edrea_tm_bar_bg .edrea_tm_bar{
+	height:100%;
+	background:#333;
+	width:0px;
+	overflow:hidden;
+}
+.edrea_tm_progress_wrap[data-strip="on"] .edrea_tm_progress .edrea_tm_bar{
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, 1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, transparent 75%, transparent);
+	
+	-webkit-animation: edrea_tm_bar_move 4s linear infinite;
+	-moz-animation: edrea_tm_bar_move 4s linear infinite;
+	animation: edrea_tm_bar_move 4s linear infinite;
+
+	background-size: 50px 50px;
+}
+@-webkit-keyframes edrea_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
+@-moz-keyframes edrea_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
+@keyframes edrea_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
+
+/*expand width animation*/
+@-webkit-keyframes edrea_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
+@-moz-keyframes edrea_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
+@keyframes edrea_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
+
+.shane_tm_about_wrap_fourth .about_short_contact_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 28px;
+}
+.shane_tm_about_wrap_fourth .edrea_tm_main_title_holder{margin-bottom: 40px;}
+.shane_tm_about_wrap_fourth .about_short_contact_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_about_wrap_fourth .about_short_contact_wrap ul li{
+	margin: 0px 30px 0px 0px;
+	float: left;
+}
+.shane_tm_about_wrap_fourth .about_short_contact_wrap ul li:last-child{margin-right: 0px;}
+.about_short_contact_wrap ul li label{
+	font-weight: 700;
+	color: #000;
+}
+.shane_tm_about_wrap_fourth .about_short_contact_wrap ul li a{
+	text-decoration: none;
+	color: #000;
+    position: relative;
+	
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.shane_tm_about_wrap_fourth .about_short_contact_wrap ul li a:hover{color: #BD0A0D;}
+.shane_tm_about_wrap_fourth .buttons_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_about_wrap_fourth .buttons_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_about_wrap_fourth .buttons_wrap ul li{
+	margin: 0px 30px 10px 0px;
+	float: left;
+}
+.shane_tm_about_wrap_fourth .buttons_wrap ul li:last-child{margin-right: 0px;}
+.shane_tm_about_wrap_fourth .buttons_wrap ul li a span{
+	position: relative;
+	z-index: 2;
+}
+.shane_tm_about_wrap_fourth .buttons_wrap ul li a{
+	text-decoration: none;
+    color: #fff;
+    background-color: #041230;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding: 12px 35px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;;
+}
+.shane_tm_about_wrap_fourth .buttons_wrap ul li a:before{
+	position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #BD0A0D;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.shane_tm_about_wrap_fourth .buttons_wrap ul li a:hover:before{width: 180%;}
+.beny_tm_about{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 140px;
+}
+.shane_tm_about_fifth{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_about_fifth .about_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: center;
+}
+.shane_tm_about_fifth .about_inner .about_image{
+	width: 100%;
+	max-width: 200px;
+	height: 200px;
+	margin: 0px auto;
+}
+.shane_tm_about_fifth .about_inner .about_image .image{position: relative;}
+.shane_tm_about_fifth .about_inner .about_image .image img{border-radius: 100%;}
+.shane_tm_about_fifth .about_inner .about_image .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 100%;
+}
+.shane_tm_about_fifth .about_inner .about_image{margin-bottom: 50px;}
+.shane_tm_about_fifth .about_inner .about_image .image .main:before{
+	position: absolute;
+	content: "";
+	top: -10px;
+	bottom: -10px;
+	right: -10px;
+	left: -10px;
+	background-color: rgba(0,0,0,.08);
+	border-radius: 100%;
+	z-index: -1;
+}
+.shane_tm_about_fifth .about_inner .text{
+	width: 100%;
+	max-width: 720px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+}
+.shane_tm_about_fifth .about_inner .text p span{
+	font-weight: 500;
+}
+.shane_tm_button_third{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_button_third a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 33px;
+	border: 2px solid #e54b4b;
+	position: relative;
+	overflow: hidden;
+}
+.shane_tm_button_third a:before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #e54b4b;
+	left: 0px;
+	top: 0px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_button_third a:hover:before{left: 100%;}
+.shane_tm_button_third a span{
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_button_third a:hover span{color: #000;}
+
+/*---------------------------------------------------*/
+/*	03) SHANE SERVICE
+/*---------------------------------------------------*/
+
+.shane_tm_services_second{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 100px 0px;
+	background-color: #f1f1f1;
+}
+.shane_tm_services_second .service_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_services_second .service_list ul{
+	margin: 0px 0px 0px -70px;
+	list-style-type: none;
+}
+.shane_tm_services_second .service_list ul li{
+	margin: 0px 0px 70px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 70px;
+}
+.shane_tm_services_second .service_list ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.1);
+	padding: 60px 40px;
+	text-align: center;
+}
+.shane_tm_services_second .service_list ul li .inner:before{
+	position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #e54b4b;
+    left: 50%;
+    bottom: 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.shane_tm_services_second .service_list ul li .inner:after{
+	position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #e54b4b;
+    right: 50%;
+    bottom: 0px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.shane_tm_services_second .service_list ul li .inner:hover:before{width: 50%;}
+.shane_tm_services_second .service_list ul li .inner:hover:after{width: 50%;}
+.shane_tm_services_second .service_list ul li .inner .svg{
+	width: 45px;
+	height: 45px;
+	color: #e54b4b;
+	margin-bottom: 20px;
+}
+.shane_tm_services_second .service_list ul li .inner .title h3{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.shane_tm_service_third{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_service_third .service_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_service_third .service_inner ul{
+	margin: 0px 0px 0px -70px;
+	list-style-type: none;
+}
+.shane_tm_service_third .service_inner ul li{
+	margin: 0px 0px 70px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 70px;
+}
+.shane_tm_service_third .service_inner ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_service_third .service_inner ul li .list_inner .svg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 45px;
+	height: 45px;
+	color: #e54b4b;
+	transform: rotate(0);
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_service_third .service_inner ul li .list_inner:hover .svg{
+	transform: rotate(360deg);
+}
+.shane_tm_service_third .service_inner ul li .list_inner .details{
+	padding-left: 70px;
+}
+.shane_tm_service_third .service_inner ul li .list_inner .details h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+/*---------------------------------------------------*/
+/*	04) SHANE PORTFOLIO
+/*---------------------------------------------------*/
+
+.shane_tm_portfolio_second{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_portfolio_second .portfolio_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 80px;
+}
+.shane_tm_portfolio_second .portfolio_filter{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 40px;
+}
+.shane_tm_portfolio_second .portfolio_filter ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_portfolio_second .portfolio_filter ul li{
+	margin: 0px 30px 20px 0px;
+	display: inline-block;
+}
+.shane_tm_portfolio_second .portfolio_filter ul li:last-child{margin-right: 0px;}
+.shane_tm_portfolio_second .portfolio_filter ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.shane_tm_portfolio_second .portfolio_filter ul li a.current{color: #ff214f;}
+.shane_tm_portfolio_second .portfolio_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_portfolio_second .portfolio_list ul{
+	margin: 0px 0px 0px -70px;
+	list-style-type: none;
+}
+.shane_tm_portfolio_second .portfolio_list ul li{
+	margin: 0px 0px 70px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 70px;
+}
+.shane_tm_portfolio_second .portfolio_list ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_portfolio_second .portfolio_list ul li .inner img{opacity: 0;}
+.shane_tm_portfolio_second .portfolio_list ul li .inner .main_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+}
+.arlo_tm_portfolio_titles {
+	white-space: nowrap;
+	background: #ffffff;
+	font-size: 20px;
+	padding: 5px 15px;
+	font-family: "Montserrat";
+	font-weight: 500;
+	color: #000;
+	position: fixed;
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+}
+.arlo_tm_portfolio_titles.visible {
+	opacity: 1;
+	visibility: visible;
+}
+.arlo_tm_portfolio_titles .work__cat {
+	position: absolute;
+	background: #ffffff;
+	top: 100%;
+	left: 0;
+	margin-top: -10px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px 15px;
+}
+.entry{position: relative;}
+.shane_tm_portfolio_third{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_portfolio_third .portfolio_filter{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 42px;
+}
+.shane_tm_portfolio_third .portfolio_filter ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_portfolio_third .portfolio_filter ul li{
+	margin: 0px 30px 20px 0px;
+	display: inline-block;
+}
+.shane_tm_portfolio_third .portfolio_filter ul li:last-child{margin-right: 0px;}
+.shane_tm_portfolio_third .portfolio_filter ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.shane_tm_portfolio_third .portfolio_filter ul li a.current{color: #e54b4b;}
+.shane_tm_portfolio_third .portfolio_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_portfolio_third .portfolio_list ul{
+	margin: 0px 0px 0px -70px;
+	list-style-type: none;
+}
+.shane_tm_portfolio_third .portfolio_list ul li{
+	margin: 0px 0px 60px 0px;
+	width: 33.3333%;
+	float: left;
+	padding-left: 70px;
+}
+.shane_tm_portfolio_third .portfolio_list .image{
+	position: relative;
+	overflow: hidden;
+}
+.shane_tm_portfolio_third .portfolio_list ul li img{
+	min-width: 100%;
+	opacity: 0;
+}
+.shane_tm_portfolio_third .portfolio_list .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_portfolio_third .portfolio_list ul li .list_inner:hover .image .main{
+	transform: scale(1.1)translateZ(0);
+}
+.shane_tm_portfolio_third .portfolio_list ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+
+.shane_tm_portfolio_third .portfolio_list ul li .full_link{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 5;
+}
+.shane_tm_portfolio_third .details{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 20px;
+}
+.shane_tm_portfolio_third .details h3{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+/*---------------------------------------------------*/
+/*	05) SHANE TESTIMONIALS
+/*---------------------------------------------------*/
+
+.shane_tm_testimonial_second{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_testimonial_second .testimonial_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_testimonial_second .testimonial_bg{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+}
+.shane_tm_testimonial_second .testimonial_bg .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("..//img/slider/5.jpg");
+}
+.shane_tm_testimonial_second .testimonial_bg .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	background-color: rgba(0,0,0,.85);
+}
+.shane_tm_testimonial_second .testimonial_content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	z-index: 2;
+	padding: 150px 20px 150px 20px;
+}
+.shane_tm_testimonial_second .testimonial_content .content_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 10px solid rgba(238,238,238,0.2);
+	padding: 60px 60px 64px 155px;
+}
+.shane_tm_testimonial_second .testimonial_content .content_inner .icon{
+	position: absolute;
+	left: 51px;
+	top: 64px;
+	line-height: 0;
+}
+.shane_tm_testimonial_second .testimonial_content .content_inner .icon .svg{
+	width: 70px;
+	height: 70px;
+	color: #FF5E5F;
+}
+.shane_tm_testimonial_second .testimonial_content .content_inner .texts p{
+	color: #eee;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+.shane_tm_testimonial_second .testimonial_content .author{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+}
+.shane_tm_testimonial_second .testimonial_content .author .image{
+	width: 65px;
+	height: 65px;
+	border-radius: 100%;
+	position: relative;
+}
+.shane_tm_testimonial_second .testimonial_content .author .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 100%;
+}
+.shane_tm_testimonial_second .testimonial_content .author .job{padding-left: 25px;}
+.shane_tm_testimonial_second .testimonial_content .author .job h3{
+	color: #fff;
+	font-size: 20px;
+}
+.shane_tm_testimonial_second .testimonial_content .author .job span{color: #eee;}
+.shane_tm_testimonials_third{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_testimonials_third .testimonials_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 87px;
+}
+.shane_tm_testimonials_third .testimonials_inner ul{
+	margin: 0px;
+	list-style-type: none;
+	cursor: e-resize;
+}
+.shane_tm_testimonials_third .testimonials_inner ul li{
+	margin: 0px;
+}
+.shane_tm_testimonials_third .testimonials_inner ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_testimonials_third .descriptions{
+	width: 100%;
+	float: left;
+	border: 1px solid rgba(0,0,0,.2);
+	margin-bottom: 30px;
+	position: relative;
+	padding: 50px 40px;
+	border-radius: 5px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_testimonials_third .descriptions p{
+	opacity: .7;
+}
+.shane_tm_testimonials_third .descriptions:before{
+	position: absolute;
+	content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 13px 0 13px;
+    border-color: rgba(0,0,0,.2) transparent transparent transparent;
+	top: 100%;
+}
+.shane_tm_testimonials_third .descriptions .svg{
+	width: 35px;
+	height: 35px;
+	color: rgba(0,0,0,.2);
+	margin-bottom: 15px;
+}
+.shane_tm_testimonials_third .extra{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	opacity: .5;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_testimonials_third .extra .image{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	margin-left: 10px;
+}
+.shane_tm_testimonials_third .extra .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+}
+.shane_tm_testimonials_third .extra .name{
+	padding-left: 20px;
+}
+.shane_tm_testimonials_third .extra .name h3{
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 1;
+}
+.shane_tm_testimonials_third .extra .name span{
+	font-size: 14px;
+	font-weight: 600;
+}
+.shane_tm_testimonials_third .owl-carousel .owl-item.center .descriptions{
+	background-color: #D35158;
+}
+.shane_tm_testimonials_third .owl-carousel .owl-item.center .descriptions p{
+	color: #fff;
+	opacity: 1;
+}
+.shane_tm_testimonials_third .owl-carousel .owl-item.center .descriptions:before{
+	border-color: #D35158 transparent transparent transparent;
+}
+.shane_tm_testimonials_third .owl-carousel .owl-item.center .descriptions .svg{
+	color: #fff;
+}
+.shane_tm_testimonials_third .owl-carousel .owl-item.center .extra{
+	opacity: 1;
+}
+.shane_tm_testimonials_fourth{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 134px 0px 143px 0px;
+	margin-bottom: 133px;
+}
+.shane_tm_testimonials_fourth .testimonial_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 85px;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul{
+	margin: 0px;
+	list-style-type: none;
+	cursor: e-resize;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul li{
+	margin: 0px;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .image{
+	position: relative;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .image img{border-radius: 100%;}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 100%;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .definition{margin-bottom: 35px;}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .icon{margin-bottom: 20px;}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .icon i{
+	font-size: 25px;
+	color: #FF5E5F;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .name_holder_wrap span{
+	display: block;
+	line-height: 1.5;
+}
+.shane_tm_testimonials_fourth .testimonial_inner ul li .inner .name_holder_wrap span.name{
+	font-size: 18px;
+	font-family: "Poppins";
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+/*---------------------------------------------------*/
+/*	06) SHANE TITLE
+/*---------------------------------------------------*/
+
+.shane_tm_third_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_third_title span{
+	text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins";
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.shane_tm_third_title h3{
+	font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.shane_tm_fourth_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_fourth_title h3{
+	font-size: 30px;
+    font-weight: 700;
+    color: #000;
+	margin-bottom: 3px;
+}
+.shane_tm_fourth_title p{
+	max-width: 350px;
+}
+.shane_tm_fifth_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_fifth_title h3{
+	font-size: 30px;
+    font-weight: 700;
+    color: #000;
+	position: relative;
+	padding-left: 40px;
+}
+.shane_tm_fifth_title h3:before{
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 3px;
+	background-color: #e54b4b;
+	left: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.shane_tm_sixth_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_sixth_title h3{
+	font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.shane_tm_sixth_title h3 span{position: relative;}
+.shane_tm_sixth_title h3 span:before{
+	position: absolute;
+	content: "";
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	background-color: #e54b4b;
+	left: 100%;
+	bottom: 10px;
+	margin-left: 5px;
+}
+
+/*---------------------------------------------------*/
+/*	07) SHANE BUTTON
+/*---------------------------------------------------*/
+
+.shane_tm_elements_button{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_elements_button a{
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #000;
+	background-color: #000;
+	display: inline-block;
+	font-family: "Montserrat";
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_elements_button a:hover{
+	background-color: transparent;
+	color: #000;
+}
+.shane_tm_elements_button[data-skin="light"] a{
+	color: #000;
+	border-color: #fff;
+	background-color: #fff;
+}
+.shane_tm_elements_button[data-skin="light"] a:hover{
+	color: #fff;
+	background-color: transparent;
+}
+.shane_tm_elements_button[data-size="medium"] a{
+	padding: 7px 30px;
+	font-size: 13px;
+}
+.shane_tm_elements_button[data-size="small"] a{
+	padding: 4px 20px;
+	font-size: 10px;
+}
+.shane_tm_elements_button[data-background="transparent"] a{
+	background-color: transparent;
+	color: #000;
+}
+.shane_tm_elements_button[data-background="transparent"] a:hover{
+	color: #fff;
+	background-color: #000;
+}
+.shane_tm_elements_button.light[data-background="transparent"] a{
+	color: #fff;
+	background-color: transparent;
+}
+.shane_tm_elements_button.light[data-background="transparent"] a:hover{
+	color: #000;
+	background-color: #fff;
+}
+.shane_tm_elements_button[data-border-radius="yes"] a{
+	border-radius: 50px;
+}
+.shane_tm_elements_button[data-type="primary"] a{
+	background-color: #007bff;
+	border-color: #007bff;
+}
+.shane_tm_elements_button[data-type="primary"] a:hover{
+	color: #fff;
+	background-color: #0064D0;
+	border-color: #0064D0;
+}
+.shane_tm_elements_button[data-type="success"] a{
+	background-color: #28a745;
+	border-color: #28a745;
+}
+.shane_tm_elements_button[data-type="success"] a:hover{
+	color: #fff;
+	background-color: #228A3A;
+	border-color: #228A3A;
+}
+.shane_tm_elements_button[data-type="info"] a{
+	background-color: #17a2b8;
+	border-color: #17a2b8;
+}
+.shane_tm_elements_button[data-type="info"] a:hover{
+	color: #fff;
+	background-color: #148394;
+	border-color: #148394;
+}
+.shane_tm_elements_button[data-type="warning"] a{
+	background-color: #ffc107;
+	border-color: #ffc107;
+}
+.shane_tm_elements_button[data-type="warning"] a:hover{
+	color: #fff;
+	background-color: #C89B16;
+	border-color: #C89B16;
+}
+.shane_tm_elements_button[data-type="danger"] a{
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+.shane_tm_elements_button[data-type="danger"] a:hover{
+	color: #fff;
+	background-color: #B72836;
+	border-color: #B72836;
+}
+.buttons_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.buttons_list ul{
+	margin: 0px;
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+.buttons_list ul li{
+	margin: 0px 20px 0px 0px;
+	display: inline-block;
+}
+.mydivider{
+	width: 100%;
+	height: 5px;
+	background-color: #000;
+	float: left;
+	margin: 200px 0px;
+}
+.element_bg{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 100px 0px;
+}
+.element_bg.bigger{padding: 200px 0px;}
+.element_bg[data-skin="gold"]{background-color: #f1f1f1;}
+.element_bg[data-skin="dark"]{background-color: #000;}
+.element_bg[data-skin="golder"]{background-color: #f8f5f2;}
+.element_bg .shane_tm_one_page_about{padding: 0px;}
+.element_bg .shane_tm_about_wrap_fourth{padding: 0px;}
+.element_bg .shane_tm_one_page_services{padding: 0px;background-color: transparent;}
+.element_bg .shane_tm_services_second{padding: 0px;background-color: transparent;}
+.element_bg .shane_tm_one_page_portfolio{padding: 0px;margin: 0px;}
+.element_bg .shane_tm_testimonials_fourth{padding: 0px;margin: 0px;}
+.element_bg .shane_tm_testimonials{margin: 0px;}
+
+/*---------------------------------------------------*/
+/*	08) SHANE MEDIA QUERIES (FOR SMALL DEVICES)
+/*---------------------------------------------------*/
+
+@media (max-width: 1040px) {
+	.shane_tm_about_second .about_inner{flex-direction: column;align-items: baseline;}
+	.shane_tm_about_second .left{width: 100%;padding: 0px;margin-bottom: 50px;}
+	.shane_tm_about_second .right{width: 100%;padding: 0px;}
+	.shane_tm_about_third .about_inner{flex-direction: column;}
+	.shane_tm_about_third .leftbox{width: 100%;margin-bottom: 50px;}
+	.shane_tm_about_third .rightbox{width: 100%;padding: 0px;}
+	.shane_tm_about_wrap_fourth .author_wrap{flex-direction: column;align-items: baseline;}
+	.shane_tm_about_wrap_fourth .leftbox{width: 100%;margin-bottom: 50px;}
+	.shane_tm_about_wrap_fourth .rightbox{width: 100%;padding: 0px;}
+	.shane_tm_services_second .service_list ul li{width: 50%;padding-left: 20px;margin-bottom: 20px;}
+	.shane_tm_services_second .service_list ul{margin-left: -20px;}
+	.shane_tm_portfolio_second .portfolio_list ul li{width: 50%;padding-left: 20px;margin-bottom: 20px;}
+	.shane_tm_portfolio_second .portfolio_list ul{margin-left: -20px;}
+	.shane_tm_portfolio_third .portfolio_list ul li{width: 50%;padding-left: 20px;margin-bottom: 20px;}
+	.shane_tm_portfolio_third .portfolio_list ul{margin-left: -20px;}
+	.shane_tm_service_third .service_inner ul li{width: 50%;}
+}
+@media (max-width: 768px) {
+	.shane_tm_hero_second .centered_content .name{font-size: 40px;}
+	.shane_tm_hero_third .centered_content .name{font-size: 40px;}
+	.shane_tm_hero_fourth .name_another{font-size: 40px;}
+	.shane_tm_about_second .short_list ul li{width: 100%;padding: 0px;}
+	.shane_tm_about_second .short_list ul{margin: 0px;}
+	.shane_tm_about_third .about_short_contact_wrap ul li{width: 100%;}
+	.shane_tm_services_second .service_list ul li{width: 100%;padding-left: 0px;}
+	.shane_tm_services_second .service_list ul{margin: 0px;}
+	.shane_tm_service_third .service_inner ul li{width: 100%;padding-left: 0px;}
+	.shane_tm_service_third .service_inner ul{margin: 0px;}
+	.shane_tm_portfolio_second .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.shane_tm_portfolio_second .portfolio_list ul{margin: 0px;}
+	.shane_tm_portfolio_third .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.shane_tm_portfolio_third .portfolio_list ul{margin: 0px;}
+	.shane_tm_testimonial_second .testimonial_content .content_inner .icon{position: relative;top: 0px;left: 0px;margin-bottom: 20px;}
+	.shane_tm_testimonial_second .testimonial_content .content_inner{padding: 60px 60px 64px 60px;}
+}

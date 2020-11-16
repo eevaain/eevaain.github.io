@@ -1,0 +1,1249 @@
+@charset "utf-8";
+
+/*
+/*	Copyright (c) 2020 Marketify
+/*	Author: Marketify
+/*	This file is made for CURRENT TEMPLATE
+
+
+01) SHANE ONE PAGE TOPBAR 
+02) SHANE ONE PAGE MOBILE MENU
+03) SHANE ONE PAGE HERO HEADER
+04) SHANE ONE PAGE ABOUT
+05) SHANE ONE PAGE SERVICES
+06) SHANE ONE PAGE EXPERIENCE
+07) SHANE ONE PAGE PORTFOLIO
+08) SHANE ONE PAGE NEWS
+09) SHANE ONE PAGE CONTACT
+10) SHANE ONE PAGE COPYRIGHT 
+11) SHANE MEDIA QUERIES (FOR SMALL DEVICES) 
+
+
+/*---------------------------------------------------*/
+/*	01) SHANE ONE PAGE TOPBAR
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_topbar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 111;
+	padding: 30px 0px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_one_page_topbar.animate{
+	background-color: #fff;
+	padding: 25px 0px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.15);
+}
+.shane_tm_one_page_topbar .topbar_inner .logo .light{display: block;}
+.shane_tm_one_page_topbar .topbar_inner .logo .dark{display: none;}
+.shane_tm_one_page_topbar.animate .topbar_inner .logo .light{display: none;}
+.shane_tm_one_page_topbar.animate .topbar_inner .logo .dark{display: block;}
+.shane_tm_one_page_topbar.animate ul li a{color: #000;}
+.shane_tm_one_page_topbar .topbar_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.shane_tm_one_page_topbar .topbar_inner .logo img{max-width: 100px;}
+.shane_tm_one_page_topbar ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_one_page_topbar ul li{
+	margin: 0px 25px 0px 0px;
+	display: inline-block;
+}
+.shane_tm_one_page_topbar ul li:last-child{margin-right: 0px;}
+.shane_tm_one_page_topbar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*---------------------------------------------------*/
+/*	02) SHANE ONE PAGE MOBILE MENU
+/*---------------------------------------------------*/
+
+.shane_tm_mobile_menu{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	z-index: 10;
+}
+.shane_tm_mobile_menu .topbar_inner{
+	width: 100%;
+	height: auto;
+	float: left;
+	clear: both;
+	background-color: #fff;
+	padding: 20px 0px;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.shane_tm_mobile_menu .topbar_in{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.shane_tm_mobile_menu .topbar_inner .trigger a{
+	text-decoration: none;
+	color: #000;
+}
+.shane_tm_mobile_menu .topbar_inner .trigger a .close{display: none;}
+.shane_tm_mobile_menu .topbar_inner .trigger a .close.opened{display: block;}
+.shane_tm_mobile_menu .topbar_inner .trigger a .menu.closed{display: none;;}
+.shane_tm_mobile_menu .dropdown{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #fff;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	display: none;
+}
+.shane_tm_mobile_menu .dropdown .dropdown_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 25px 0px;
+}
+.shane_tm_mobile_menu .dropdown .dropdown_inner ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_mobile_menu .dropdown .dropdown_inner ul li{
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+.shane_tm_mobile_menu .dropdown .dropdown_inner ul li a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding: 4px 0px;
+	font-family: "Poppins";
+	font-weight: 500;
+}
+.shane_tm_mobile_menu .logo img{max-width: 70px;}
+
+/*---------------------------------------------------*/
+/*	03) SHANE ONE PAGE HERO HEADER
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_hero{
+	width: 100%;
+	height: 100vh;
+	float: left;
+	position: relative;
+}
+.shane_tm_one_page_hero .bg{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.shane_tm_one_page_hero .bg .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.shane_tm_one_page_hero .bg .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(0,0,0,.5);
+	z-index: 1;
+}
+.shane_tm_one_page_hero .content{
+	position: absolute;
+	z-index: 5;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.shane_tm_one_page_hero .author_image{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	margin-bottom: 23px;
+	display: inline-block;
+}
+.shane_tm_one_page_hero .author_image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+}
+.shane_tm_one_page_hero .author_image .main:before{
+	position: absolute;
+	content: "";
+	top: -10px;
+	bottom: -10px;
+	left: -10px;
+	right: -10px;
+	border-radius: 100%;
+	background-color: rgba(255,255,255,.1);
+	z-index: -1;
+}
+.shane_tm_one_page_hero .name h3{
+	color: #fff;
+	font-weight: 700;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+.shane_tm_one_page_hero .job span{
+	color: #fff;
+	font-weight: 400;
+	font-size: 22px;
+}
+.shane_tm_one_page_hero .job b{
+	font-weight: 400;
+}
+.shane_tm_arrow_wrap{
+	position: absolute;
+	left: 50%;
+	bottom: 2%;
+	transform: translateX(-50%);
+	margin-left: -21px;
+	z-index: 55;
+}
+.shane_tm_arrow_wrap.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+.shane_tm_arrow_wrap a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+}
+
+/*---------------------------------------------------*/
+/*	04) SHANE ONE PAGE ABOUT
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_about{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-bottom: 200px;
+	padding-top: 200px;
+}
+.shane_tm_one_page_about .about_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+}
+.shane_tm_one_page_about .left{
+	width: 45%;
+}
+.shane_tm_one_page_about .left .about_image_wrap{position: relative;}
+.shane_tm_one_page_about .left .about_image_wrap .image{
+	position: absolute;
+	z-index: 2;
+}
+.shane_tm_one_page_about .left .about_image_wrap .image .inner{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.shane_tm_one_page_about .left .about_image_wrap .border .inner{
+	position: absolute;
+	top: 25px !important;
+	bottom: -25px !important;
+	left: 25px !important;
+	right: -25px !important;
+	border: 10px solid #000;
+}
+.shane_tm_one_page_about .left .about_image_wrap img{opacity: 0;}
+.shane_tm_one_page_about .right{
+	width: 55%;
+	padding-left: 70px;
+}
+.shane_tm_one_page_about .right .links{
+	width: 100%;
+	float: left;
+	margin-bottom: 40px;
+}
+.shane_tm_one_page_about .right .links ul{
+	margin: 0px;
+	list-style-type: none;
+	border: 1px solid rgba(0,0,0,.1);
+	float: left;
+	width: 100%;
+}
+.shane_tm_one_page_about .right .links ul li{
+	margin: 0px;
+	width: 25%;
+	text-align: center;
+	float: left;
+	border-right: 1px solid rgba(0,0,0,.1);
+}
+.shane_tm_one_page_about .right .links ul li:last-child{border-right: none;}
+.shane_tm_one_page_about .right .links ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 3px 0px;
+	color: #000;
+	font-weight: 400;
+	font-family: "Poppins";
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_one_page_about .right .links ul li a.current{
+	background-color: #e54b4b;
+	color: #fff;
+}
+.shane_tm_one_page_about .right .links ul li a:hover{
+	background-color: #e54b4b;
+	color: #fff;
+}
+.shane_tm_one_page_about .content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: none;
+}
+.shane_tm_one_page_about .content.current{
+	display: block;
+	-webkit-animation: slide-down2 .4s ease;
+    -moz-animation: slide-down2 .4s ease;
+}
+@-webkit-keyframes slide-down2 {
+      0% { -webkit-transform: translateY(2%); }   
+    100% {  -webkit-transform: translateY(0); }
+}
+@-moz-keyframes slide-down2 {
+      0% {  -moz-transform: translateY(2%); }   
+    100% {  -moz-transform: translateY(0); }
+}
+.shane_tm_one_page_about .title_extra{
+	width: 100%;
+	float: left;
+	margin-bottom: 17px;
+}
+.shane_tm_one_page_about .content .text.skills{
+	margin-bottom: 17px;
+}
+.shane_tm_one_page_about .title_extra h3{
+    font-weight: 600;
+    line-height: 1.4;
+	font-size: 25px;
+}
+.shane_tm_one_page_about .content .text{
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+.shane_tm_one_page_about .content .text p{
+	margin-bottom: 7px;
+}
+.shane_tm_one_page_about .content .text p:last-child{margin-bottom: 0px;}
+.shane_tm_one_page_about .content .sign{
+	margin-bottom: 40px;
+}
+.shane_tm_one_page_about .content .sign .dark{display: block;}
+.shane_tm_one_page_about .content .sign .light{display: none;}
+body.dark .shane_tm_one_page_about .content .sign .dark{display: none;}
+body.dark .shane_tm_one_page_about .content .sign .light{display: block;}
+.shane_tm_one_page_about .shane_tm_skills{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+.shane_tm_one_page_about .shane_tm_skills ul{
+	padding: 0px;
+}
+.shane_tm_one_page_interests{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_one_page_interests ul{
+	margin: 0px 0px 0px -20px;
+	list-style-type: none;
+}
+.shane_tm_one_page_interests ul li{
+	margin: 0px 0px 20px 0px;
+	width: 33.3333%;
+	float: left;
+	padding-left: 20px;
+	text-align: center;
+}
+.shane_tm_one_page_interests ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 5px;
+	padding: 30px 30px 25px 30px;
+}
+.shane_tm_one_page_interests ul li .list_inner span{
+	display: block;
+}
+.shane_tm_one_page_interests ul li .list_inner .svg{
+	color: #e54b4b;
+    width: 35px;
+    height: 35px;
+}
+.shane_tm_one_page_facts{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_one_page_facts ul{
+	margin: 0px 0px 0px -20px;
+	list-style-type: none;
+}
+.shane_tm_one_page_facts ul li{
+	margin: 0px 0px 20px 0px;
+	width: 33.3333%;
+	float: left;
+	padding-left: 20px;
+	text-align: center;
+}
+.shane_tm_one_page_facts ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 5px;
+	padding: 30px 30px 25px 30px;
+}
+.shane_tm_one_page_facts ul li .list_inner .svg{
+	color: #e54b4b;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 13px;
+}
+.shane_tm_one_page_facts ul li .list_inner h3{
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+/*---------------------------------------------------*/
+/*	05) SHANE ONE PAGE SERVICES
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_services{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #f8f5f2;
+	padding: 193px 0px 130px 0px;
+}
+.shane_tm_one_page_main_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_one_page_main_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_one_page_main_title[data-skin="light"] h3{
+	color: #fff;
+}
+.shane_tm_one_page_main_title span{
+	font-family: "Poppins";
+	font-weight: 600;
+	color: #e54b4b;
+}
+.shane_tm_one_page_main_title h3{
+	font-weight: 600;
+	color: #000;
+}
+.shane_tm_one_page_services .service_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 87px;
+}
+.shane_tm_one_page_services .service_inner ul{
+	margin: 0px 0px 0px -70px;
+    list-style-type: none;
+}
+.shane_tm_one_page_services .service_inner ul li{
+	margin: 0px 0px 70px 0px;
+    float: left;
+    width: 33.3333%;
+    padding-left: 70px;
+}
+.shane_tm_one_page_services .service_inner ul li .list_inner{
+	width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.08);
+    padding: 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+	border-radius: 5px;
+}
+.shane_tm_one_page_services .service_inner ul li .icon .svg{
+	color: #e54b4b;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+.shane_tm_one_page_services .service_inner ul li h3{
+	font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+.shane_tm_one_page_services .service_inner ul li.active .list_inner,
+.shane_tm_one_page_services .service_inner ul li .list_inner:hover{
+	background-color: #e54b4b;
+}
+.shane_tm_one_page_services .service_inner ul li.active .icon .svg,
+.shane_tm_one_page_services .service_inner ul li .list_inner:hover .icon .svg{
+	color: #fff;
+}
+.shane_tm_one_page_services .service_inner ul li.active h3,
+.shane_tm_one_page_services .service_inner ul li .list_inner:hover h3{
+	color: #fff;
+}
+.shane_tm_one_page_services .service_inner ul li .list_inner:hover p,
+.shane_tm_one_page_services .service_inner ul li.active p{
+	color: #fff;
+}
+.shane_tm_one_page_services .icon_extra{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.shane_tm_one_page_services .icon_extra .svg{
+	width: 0px;
+	height: 0px;
+	color: rgba(255,255,255,.15);
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_one_page_services .service_inner ul li .list_inner:hover .icon_extra .svg,
+.shane_tm_one_page_services .service_inner ul li.active .icon_extra .svg{
+	width: 170px;
+	height: 170px;
+}
+
+/*---------------------------------------------------*/
+/*	06) SHANE ONE PAGE EXPERIENCE
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_experience{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_one_page_experience .experience_bg{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.shane_tm_one_page_experience .experience_bg .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("..//img/slider/1.jpg");
+}
+.shane_tm_one_page_experience .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	background-color: rgba(0,0,0,.85);
+}
+.shane_tm_one_page_experience .content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	z-index: 3;
+}
+.shane_tm_one_page_experience .content_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 190px 0px 194px 0px;
+}
+.shane_tm_one_page_experience .experience_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 83px;
+}
+.shane_tm_one_page_experience .experience_list ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_one_page_experience .experience_list ul li{
+	margin: 0px;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid rgba(255,255,255,.15);
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+.shane_tm_one_page_experience .experience_list ul li:last-child{
+	margin-bottom: 0px;
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+.shane_tm_one_page_experience .experience_list ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+}
+.shane_tm_one_page_experience .experience_list ul li .first,
+.shane_tm_one_page_experience .experience_list ul li .second{
+	width: 30%;
+	padding-right: 20px;
+}
+.shane_tm_one_page_experience .experience_list ul li .first h3,
+.shane_tm_one_page_experience .experience_list ul li .second h3{
+	color: #fff;
+	font-size: 20px;
+}
+.shane_tm_one_page_experience .experience_list ul li .third{
+	width: 40%;
+	padding-left: 100px;
+}
+.shane_tm_one_page_experience .experience_list ul li .third p{
+	color: #bbb;
+	position: relative;
+	margin-top: -12px;
+}
+
+/*---------------------------------------------------*/
+/*	07) SHANE ONE PAGE PORTFOLIO
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_portfolio{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 130px;
+	padding-top: 190px;
+}
+.shane_tm_one_page_portfolio .portfolio_filter{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 42px;
+	padding-top: 75px;
+}
+.shane_tm_one_page_portfolio .portfolio_filter ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_one_page_portfolio .portfolio_filter ul li{
+	margin: 0px 30px 20px 0px;
+	display: inline-block;
+}
+.shane_tm_one_page_portfolio .portfolio_filter ul li:last-child{margin-right: 0px;}
+.shane_tm_one_page_portfolio .portfolio_filter ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.shane_tm_one_page_portfolio .portfolio_filter ul li a.current{color: #e54b4b;}
+body.dark .shane_tm_one_page_portfolio .portfolio_filter ul li a.current{color: #e54b4b;}
+.shane_tm_one_page_portfolio .portfolio_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul{
+	margin: 0px 0px 0px -70px;
+	list-style-type: none;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li{
+	margin: 0px 0px 70px 0px;
+	width: 33.3333%;
+	float: left;
+	padding-left: 70px;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li img{
+	min-width: 100%;
+	border-radius: 5px;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 2;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .desc{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	z-index: 3;
+	overflow: hidden;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .desc .in{
+	background-color: #fff;
+	padding: 20px 20px 11px 20px;
+	position: relative;
+	transform: translateY(100%);
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .list_inner:hover .desc .in{
+	transform: translateY(0%);
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .desc .in h3{
+	font-size: 18px;
+	font-weight: 600;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .desc .in span{
+	position: relative;
+	top: -4px;
+}
+.shane_tm_one_page_portfolio .portfolio_list ul li .full_link{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 5;
+}
+
+/*---------------------------------------------------*/
+/*	08) SHANE ONE PAGE NEWS
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_news{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 115px;
+	padding-top: 190px;
+}
+.shane_tm_one_page_news .news_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 85px;
+}
+.shane_tm_one_page_news ul{
+	margin: 0px 0px 0px -70px;
+	list-style-type: none;
+}
+.shane_tm_one_page_news ul li{
+	margin: 0px 0px 70px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 70px;
+}
+.shane_tm_one_page_news ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_one_page_news ul li .image{
+	position: relative;
+	float: left;
+	margin-bottom: 20px;
+}
+.shane_tm_one_page_news ul li .image img{
+	opacity: 0;
+}
+.shane_tm_one_page_news ul li .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+}
+.shane_tm_one_page_news ul li .category{
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1;
+	display: inline-block;
+	color: #fff;
+	background-color: #e54b4b;
+	padding: 3px 10px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.shane_tm_one_page_news ul li .full_link{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 2;
+}
+.shane_tm_one_page_news ul li .title{
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.shane_tm_one_page_news ul li .title a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_one_page_news ul li .title a:hover{
+	color: #e54b4b;
+}
+body.dark .shane_tm_one_page_news ul li .title a:hover{
+	color: #e54b4b;
+}
+.shane_tm_read_more{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.shane_tm_read_more a{
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.shane_tm_read_more[data-color="light"] a{
+	color: #fff;
+}
+.shane_tm_one_page_news .shane_tm_read_more a:hover{
+	padding-left: 30px;
+}
+.shane_tm_service .service_list ul li .list_inner:hover .shane_tm_read_more a{
+	padding-left: 30px;
+}
+.shane_tm_read_more[data-color="light"] .arrow{
+	background-color: #fff;
+}
+.shane_tm_read_more[data-color="light"] .arrow::after,
+.shane_tm_read_more[data-color="light"] .arrow::before{
+	background-color: #fff;
+}
+.shane_tm_read_more a .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 2px;
+  background-color: #000;
+  left: -20px;
+	
+  -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+	  -ms-transition: all .3s ease;
+	   -o-transition: all .3s ease;
+		  transition: all .3s ease;
+}
+.shane_tm_read_more a .arrow::after,
+.shane_tm_read_more a .arrow::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  right: -4px;
+  background-color: #000;
+}
+.shane_tm_read_more a .arrow::after {
+  top: -2px;
+  transform: rotate(45deg);
+}
+.shane_tm_read_more a .arrow::before {
+  top: 2px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(-45deg);
+}
+.shane_tm_one_page_news .shane_tm_read_more a:hover .arrow{
+	left: 0px;
+}
+
+/*---------------------------------------------------*/
+/*	09) SHANE ONE PAGE CONTACT
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_contact{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #f8f5f2;
+	padding: 190px 0px 200px 0px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .short_info{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 88px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .short_info ul{
+	margin: 0px 0px 0px -70px;
+	list-style-type: none;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .short_info ul li{
+	margin: 0px 0px 70px 0px;
+	width: 33.3333%;
+	float: left;
+	padding-left: 70px;
+	text-align: center;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .short_info ul li .list_inner{
+	width: 100%;
+	height: 100%;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.15);
+	padding: 50px 10px;
+	border-radius: 5px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .short_info ul li span{
+	display: block;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .short_info ul li .svg{
+	color: #e54b4b;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .contact_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left; 
+}
+.shane_tm_one_page_contact .contact_inner_wrap .contact_inner .wrapper{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .desc{
+	max-width: 50%;
+	float: left;
+	padding-top: 33px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .contact_inner .left{
+	width: 50%;
+	padding-right: 15px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields .first{
+	width: 100%;
+	float: left;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields ul li{
+	width: 100%;
+	margin: 0px 0px 30px 0px;
+	float: left;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields ul li input{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	background-color: transparent;
+	border-radius: 5px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields ul li input:focus{
+	outline: none;
+	border: 1px solid rgba(0,0,0,.5);
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields .last textarea{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	height: 120px;
+	resize: none;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-radius: 5px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .fields .last textarea:focus{
+	outline: none;
+	border: 1px solid rgba(0,0,0,.5);
+} 
+.shane_tm_one_page_contact .contact_inner_wrap .empty_notice{
+	color: #F52225;
+	margin-bottom: 7px;
+	display: none;
+	text-align: left;
+	font-weight: 500;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .contact_error{
+	color: #F52225;
+	text-align: left;
+	font-weight: 500;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .returnmessage{
+	color:#3A00FF;
+	margin-bottom: 7px;
+	text-align: left;
+	font-weight: 500;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .right{
+	width: 50%;
+	padding-left: 15px;
+	position: relative;
+	top:6px;
+}
+.shane_tm_one_page_contact .contact_inner_wrap .map_wrap .map {
+  min-height: 344px;
+  width: 100%;
+}
+
+/*---------------------------------------------------*/
+/*	10) SHANE ONE PAGE COPYRIGHT
+/*---------------------------------------------------*/
+
+.shane_tm_one_page_copyright{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #000;
+	padding: 60px 0px;
+}
+.shane_tm_one_page_copyright .copyright_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.shane_tm_one_page_copyright .text p a{
+	color: #fff;
+	text-decoration: none;
+}
+.shane_tm_one_page_copyright .text p{
+	color: #bbb;
+}
+.shane_tm_one_page_copyright .social ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.shane_tm_one_page_copyright .social ul li{
+	margin: 0px 20px 0px 0px;
+	display: inline-block;
+}
+.shane_tm_one_page_copyright .social ul li:last-child{margin-right: 0px;}
+.shane_tm_one_page_copyright .social ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.shane_tm_one_page_hero .video_demo{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+}
+.shane_tm_one_page_hero .video_demo video{
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	border-radius: 5px;
+}
+
+/*---------------------------------------------------*/
+/*	11) SHANE MEDIA QUERIES (FOR SMALL DEVICES)
+/*---------------------------------------------------*/
+
+@media (max-width: 1040px) {
+	.shane_tm_one_page_topbar{display: none;}
+	.shane_tm_mobile_menu{display: block;}
+	.shane_tm_one_page_about .about_inner{flex-direction: column;}
+	.shane_tm_one_page_about .left{width: 100%;margin-bottom: 60px;}
+	.shane_tm_one_page_about .left .image img{min-width: 100%;}
+	.shane_tm_one_page_about .right{width: 100%;padding-left: 0px;}
+	.shane_tm_one_page_services .service_inner ul li{width: 50%;padding-left: 20px;margin-bottom: 20px;}
+	.shane_tm_one_page_services .service_inner ul{margin-left: -20px;}
+	.shane_tm_one_page_portfolio .portfolio_list ul li{width: 50%;padding-left: 20px;margin-bottom: 20px;}
+	.shane_tm_one_page_portfolio .portfolio_list ul{margin-left: -20px;}
+	.shane_tm_one_page_experience .experience_list ul li .list_inner{flex-direction: column;}
+	.shane_tm_one_page_experience .experience_list ul li .list_inner > div{width: 100%;padding: 0px;}
+	.shane_tm_one_page_experience .experience_list ul li .list_inner .first{margin-bottom: 20px;}
+	.shane_tm_one_page_experience .experience_list ul li .list_inner .second{margin-bottom: 25px;}
+	.shane_tm_one_page_news ul li{width: 50%;padding-left: 20px;margin-bottom: 20px;}
+	.shane_tm_one_page_news ul{margin-left: -20px;}
+	.shane_tm_one_page_contact .contact_inner_wrap .short_info ul li{padding-left: 0px;width: 100%;margin-bottom: 20px;}
+	.shane_tm_one_page_contact .contact_inner_wrap .short_info ul{margin: 0px;}
+	.shane_tm_one_page_contact .contact_inner_wrap .contact_inner .wrapper{flex-direction: column;}
+	.shane_tm_one_page_contact .contact_inner_wrap .contact_inner .left{width: 100%;padding-right: 0px;margin-bottom: 40px;}
+	.shane_tm_one_page_contact .contact_inner_wrap .right{padding-left: 0px;width: 100%;}
+	.shane_tm_one_page_copyright .copyright_inner{flex-direction: column;align-items: center;}
+	.shane_tm_one_page_copyright .copyright_inner .text{margin-bottom: 10px;}
+}
+@media (max-width: 768px) {
+	.shane_tm_one_page_hero .name h3{font-size: 40px;}
+	.shane_tm_one_page_about .right .links ul li{width: 50%;}
+	.shane_tm_one_page_services .service_inner ul{margin: 0px;}
+	.shane_tm_one_page_services .service_inner ul li{width: 100%;padding-left: 0px;}
+	.shane_tm_one_page_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.shane_tm_one_page_portfolio .portfolio_list ul{margin: 0px;}
+	.shane_tm_one_page_news ul li{width: 100%;padding-left: 0px;}
+	.shane_tm_one_page_news ul{margin: 0px;}
+	.shane_tm_one_page_facts ul li{padding-left: 0px;width: 100%;}
+	.shane_tm_one_page_facts ul{margin: 0px;}
+	.shane_tm_one_page_interests ul li{padding-left: 0px;width: 100%;}
+	.shane_tm_one_page_interests ul{margin: 0px;}
+	.shane_tm_one_page_about{padding-bottom: 150px;padding-top: 150px;}
+	.shane_tm_one_page_services{padding-top: 143px;}
+	.shane_tm_one_page_portfolio{padding-top: 140px;}
+	.shane_tm_one_page_experience .content_inner{padding-top: 140px;}
+	.shane_tm_one_page_news{padding-top: 140px;}
+	.shane_tm_one_page_contact{padding-top: 140px;padding-bottom: 150px;}	
+}
