@@ -622,3 +622,7 @@ body.gradient_orange{
 	.shane_tm_all_wrap[data-color="red"] .shane_tm_menu{background-color: #fe0000;}
 	.shane_tm_all_wrap[data-color="red"] .shane_tm_menu_extra{background-color: #fe0000;}
 }
+
+.hidden {
+	visibility: hidden;
+}
